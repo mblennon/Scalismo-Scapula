@@ -1,7 +1,3 @@
-import scalismo.common.interpolation.TriangleMeshInterpolator3D
-
-import scala.concurrent.Future
-
 object ModelfittingwithMCMCusingScapulaSSM extends App {
 
   import breeze.linalg.{DenseMatrix, DenseVector}
@@ -23,6 +19,8 @@ object ModelfittingwithMCMCusingScapulaSSM extends App {
   import scalismo.utils.Memoize
   import scalismo.registration.LandmarkRegistration
   import scalismo.transformations.RigidTransformation
+  import scalismo.common.interpolation.TriangleMeshInterpolator3D
+  import scala.concurrent.Future
   import java.awt.Color
   import scala.swing.event.ButtonClicked
   import scala.swing.{Button, FlowPanel}
